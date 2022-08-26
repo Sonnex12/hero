@@ -1,0 +1,207 @@
+*{padding:0;
+    margin:0;
+    box-sizing:border-box;}
+    
+   .logo {position: absolute;
+          font-weight:bold;
+          font-size:1.5em;
+          color:white;
+          margin: 21px 0 0 9px;}
+   .logo span {color:#14bbda;}
+   /*nav section*/
+   nav#navbar{color:#fff;
+               background-color:#150B21;
+               height:71px;
+               width:auto;
+               position:static;
+               
+               }
+   .menu1{float:right;
+             clear: left;
+             width: 90px;
+             padding:6px 18px;
+             filter:invert(100%);}        
+   nav a{padding-top:7000px;
+         }
+     /*The end of nav section beginning of onclick */
+   
+   .link{float:right;
+              clear:right;
+              text-decoration:none;
+              background:#150B21;
+              width:75%;
+              height:100%;
+              opacity:1;
+              display:none;
+              position:fixed;
+              right:0;
+              top:0;
+             margin-top:0;
+              }
+   .link li a{text-decoration:none;
+             color:white;
+             font-size:1.5em;}
+            
+   .link li {text-align:right;
+             list-style:none;
+             line-height:60px;          
+             padding:0 20px 7px 0;
+             border-bottom:1px solid #fff;
+             border-top:1px solid #fff;
+             background:#150b21;
+             }
+   .link li:hover{opacity:1;
+               background:#504858;
+               padding:0 25px 0 0;
+               line-height:90px;}
+               
+               
+   .Undoo {color:white;
+           font-size:2em;
+           font-weight:bold;
+           border:1px solid #f9f6f6;
+           line-height:50px;
+           margin: 0 0 0 20px;
+           
+           
+           }
+           
+    .Undoo:hover {color:#f00;
+                  }
+       /* Done with introduction sections*/     
+   .sunday{font-family: Georgia, 'Times New Roman', Times, serif;
+           background:#14BBDA;
+           margin:1 0 0 0;
+           height:125px;}
+   .sunday h1{padding:35px 0 0 60px;
+              color:#150B21;
+       }
+       
+   .sunday img{float:right;
+               border-radius:50%;
+               clear:both;
+               margin:15px 0 0 0;
+               padding: 5px 13px 7px 1px;
+          }
+   
+   .sunday span{padding-left:70px;
+               color:#fff;
+               font-weight:bold;
+               font-size:1.3em;}
+   
+   /*moving to experience session */
+   
+   .experience {background:#150B21;
+                padding:0 17px 0 17px;
+               color:#fff;
+              font-size: 1.3em;
+              font-family: Georgia, 'Times New Roman', Times, serif;}
+               
+       /* Read more */
+       
+   .readmore{background:#150b21;
+            align-content: center;
+            padding:7%;
+            color:#fff;}
+   .readmore div{display: block;
+                text-align:center;
+                
+                border-top:2px groove #14bbda;
+                border-left:2px groove #14bbda;
+                border-radius:12px;
+                width: 50%;
+              margin-left: 20%;
+   }
+
+
+   .resume li{text-align: center;
+             list-style: none;}
+   
+   .readmore div .list-wrap1{display: inline-block;}
+   
+
+   .readmore div ul li{list-style:none;
+                     margin: 12px 15px 13px 13px;
+                     }
+   .readmore div ul li img{margin-bottom:10px;
+                    margin-top:15px;
+                    border-radius:8%;}
+            /*Subscription button*/
+            
+   input{align-items: center;
+                 margin:7px 0 0 80px;
+                 height:50px;
+                 width:170px;
+                 border:none;
+                 color:#fff;
+                 border-radius:25px;
+                 background:#150b21;
+                 font-size:2em;
+                 font-weight:bold;}
+   
+   input:hover {background:#14bbda;
+                     border-radius:20px;}
+                     
+               /*footer*/
+   
+   footer {height:250px;
+          background:#000;}
+   footer span{color:white;
+            padding:0 0 0 120px;}
+   footer img{align-items: center;
+             margin:12px;
+            width: 10%;}
+             h5{color:white;
+                  text-align:center;}
+    footer a:nth-child(1) {filter:invert(100%);}
+    footer a:nth-child(2) {filter:invert(100%);}
+    footer a:nth-child(3) {filter:invert(100%);}
+    #h5{margin-top:15px;}
+
+
+     @media screen and (max-width:749px){
+     #navbar ul{display:none;}
+     #navbar .menu1{display: block;}
+   }
+    
+   
+   @media screen and (min-width:750px){
+    .menu1{display:none;}
+    #navbar ul {float:right;
+           display:flex;
+
+           margin:13px;
+             }
+
+  #navbar ul li{margin: 5px 24px;
+           list-style: none;
+           width:120px;
+           text-align: center;
+          border: 2px solid #fff;
+          border-radius: 30px;}
+
+ #navbar ul li a{text-decoration: none;
+                color:#fff;
+                font-weight: bold;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+
+ #navbar ul li:hover{background: #14BBDA;
+                 width:120px;}
+
+
+
+
+   nav#navbar{height:70px ;}
+
+
+   .list-wrap2 ul{display: flex;
+           
+           }
+  .list-wrap2 ul li{margin:4%;
+          }
+    .sunday{height: 200px;}
+    .sunday h1{padding:11px;}
+    .sunday img{padding: 25px 23px 60px 35px;}
+    .experience{height:35%;}
+   }
