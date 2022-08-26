@@ -45,7 +45,7 @@
    .link li {text-align:right;
              list-style:none;
              line-height:60px;          
-             padding:0 20px 7px 0;
+             padding:0 32px 7px 0;
              border-bottom:1px solid #fff;
              border-top:1px solid #fff;
              background:#150b21;
@@ -55,7 +55,12 @@
                padding:0 25px 0 0;
                line-height:90px;}
                
-               
+ .con1{color:#fff;
+      float:right;
+      padding: 13px 20px 0 24px;
+      font-weight:bold; }   
+
+.con1 span {color: #14BBDA;}
    .Undoo {color:white;
            font-size:2em;
            font-weight:bold;
